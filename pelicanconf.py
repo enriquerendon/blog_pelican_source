@@ -30,9 +30,7 @@ OUTPUT_PATH = '../output'
 THEME = '../../pelican-themes/pelican-bootstrap3'
 PLUGIN_PATHS = ['../../pelican-plugins/', ]
 PLUGINS = ['i18n_subsites', ]
-JINJA_ENVIRONMENT = {
-    'extensions': ['jinja2.ext.i18n'],
-}
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n'],}
 BOOTSTRAP_THEME = 'flatly'
 PYGMENTS_STYLE = 'monokai'
 
